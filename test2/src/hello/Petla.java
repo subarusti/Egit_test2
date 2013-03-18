@@ -38,7 +38,7 @@ public class Petla {
 		int i=0;
 		while (i<tab1.length)
 			{
-			System.out.println(i);
+			System.out.println(tab1[i]);
 			i++;
 			}
 		
