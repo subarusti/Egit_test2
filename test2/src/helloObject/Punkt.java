@@ -3,6 +3,10 @@ package helloObject;
 public class Punkt {
 int wspX;
 int wspY;
+String wyswietlXY()
+{
+	return wyswietlX() + "," + wyswietlY();
+}
 void ustawX(int a)
 {
 wspX=a;	
@@ -18,5 +22,21 @@ int wyswietlX()
 int wyswietlY()
 {
 	return wspY;
+}
+void zwiekszX()
+{
+	wspX++;
+}
+void zwiekszY()
+{
+	wspY++;
+}
+void zmienX(int a)
+{
+	wspX=wspX+a;
+}
+void zmienY(int a)
+{
+	wspX=wspY+a;
 }
 }
