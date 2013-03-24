@@ -11,11 +11,13 @@ public class Firma {
 		
 		for (int i=0;i<osoby.length;i++)
 		{
-			osoby[i]= new Pracownik();
+			osoby[i]= new Pracownik(imiona[i],nazwiska[i],lata[i]);
 			
+			/*
 			osoby[i].setI(imiona[i]);
 			osoby[i].setN(nazwiska[i]);
 			osoby[i].setW(lata[i]);
+			*/
 		}
 		
 		for (int i=0;i<osoby.length;i++)

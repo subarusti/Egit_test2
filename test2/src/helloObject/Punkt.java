@@ -3,7 +3,17 @@ package helloObject;
 public class Punkt {
 int wspX;
 int wspY;
-String wyswietlXY()
+public Punkt(int a, int b){
+	wspX = a;
+	wspY = b;
+}
+public Punkt(){
+	wspX = 0;
+	wspY = 0;
+}
+
+
+String wyswietl()
 {
 	return wyswietlX() + "," + wyswietlY();
 }

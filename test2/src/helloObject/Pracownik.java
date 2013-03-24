@@ -4,6 +4,18 @@ public class Pracownik {
 	String imie;
 	String nazwisko;
 	int wiek;
+	Pracownik(){
+		imie="jan";
+		nazwisko="kowalski";
+		wiek=33;		
+	}
+	Pracownik (Pracownik x)
+	{
+		imie=x.imie;
+		nazwisko=x.nazwisko;
+		wiek=x.wiek;
+	}
+	
 	void setI(String a)
 	{
 		imie=a;
@@ -16,7 +28,7 @@ public class Pracownik {
 	{
 		wiek=a;
 	}
-	void setOsoba(String i, String n, int w)
+	Pracownik (String i, String n, int w)
 	{
 		imie=i;
 		nazwisko=n;
