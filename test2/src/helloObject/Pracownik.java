@@ -38,4 +38,8 @@ public class Pracownik {
 	{
 		return imie+" " + nazwisko + " "+wiek;
 	}
+	String getImie(){ return imie; }
+	String getNazwisko(){ return nazwisko; }
+	double getWyplata(){ return wiek; }
+
 }
